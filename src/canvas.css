@@ -1,0 +1,6 @@
+/* Keep the page's viewport sizing authoritative when the runtime pins an
+   intrinsic-size canvas. The engine still owns fitting and backing resolution. */
+#stage {
+  width: 100vw !important;
+  height: 100vh !important;
+}
